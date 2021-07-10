@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
    },
    selectEmpty: {
       width: 190,
+      [theme.breakpoints.down('xs')]: {
+         width: '100%',
+      },
    },
 }));
 
@@ -24,7 +27,7 @@ export default function GenderSelect() {
    };
 
    return (
-      <FormControl className={classes.formControl}>
+      <FormControl className={(classes.formControl, classes.selectEmpty)}>
          <Select
             labelId='demo-simple-select-placeholder-label-label'
             id='demo-simple-select-placeholder-label'
