@@ -10,9 +10,6 @@ const useStyles = makeStyles((theme) => ({
    textField: {
       marginRight: theme.spacing(1),
       width: 190,
-      [theme.breakpoints.down('xs')]: {
-         width: '100%',
-      },
    },
 }));
 
