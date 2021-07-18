@@ -51,7 +51,7 @@ export default function ModalFormForLogin() {
 
    const body = (
       <div style={modalStyle} className={classes.paper}>
-         <SignIn />
+         <SignIn close={handleClose} />
       </div>
    );
 

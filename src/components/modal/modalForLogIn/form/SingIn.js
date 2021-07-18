@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
    },
 }));
 
-export default function SignIn() {
+export default function SignIn(props) {
    const classes = useStyles();
 
    return (
@@ -93,7 +93,7 @@ export default function SignIn() {
                   variant='contained'
                   color='primary'
                   className={classes.submit}
-                  onClick={CheckForm}
+                  onClick={props.close}
                >
                   Sign In
                </Button>
