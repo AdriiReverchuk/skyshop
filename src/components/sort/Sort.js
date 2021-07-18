@@ -102,6 +102,7 @@ function sort({
                   <Select
                      labelId='demo-simple-select-outlined-label'
                      id='demo-simple-select-outlined'
+                     value=''
                      // onChange={handleChange}
                      label='SortBy'
                   >
