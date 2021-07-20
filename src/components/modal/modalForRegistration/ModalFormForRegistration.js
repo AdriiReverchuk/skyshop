@@ -53,7 +53,7 @@ export default function ModalFormForRegistration() {
 
    const body = (
       <div style={modalStyle} className={classes.paper}>
-         <SignUp />
+         <SignUp onClose={handleClose} />
       </div>
    );
 

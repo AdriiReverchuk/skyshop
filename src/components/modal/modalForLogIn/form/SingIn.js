@@ -17,10 +17,7 @@ import { useState } from 'react';
 function Copyright() {
    return (
       <Typography variant='body2' color='textSecondary' align='center'>
-         {'Copyright © '}
-         <Link color='inherit' href='https://material-ui.com/'>
-            Your Website
-         </Link>{' '}
+         {'Copyright ©  Sky Shop '}
          {new Date().getFullYear()}
          {'.'}
       </Typography>
